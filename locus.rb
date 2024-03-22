@@ -19,5 +19,19 @@ to the score
         input.each { | it | sequence.push(it.strip().split()[3].to_s) }
         input.each { | it | score.push(it.strip().split()[4].to_i) }
         input.each { | it | length.push(it.strip().split()[5].to_i) }
-        return(ids)
+        if column == "ids"
+                return(ids)
+       end
+       if column == "status"
+               return(status)
+       end
+      if column == "sequence"
+              return(sequence)
+      end
+      if column == "score"
+              return(score)
+      end
+      if column == "length"
+              return(length)
+      end
 end
