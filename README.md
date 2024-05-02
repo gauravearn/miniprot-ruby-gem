@@ -5,7 +5,7 @@ a ruby gem for the parsing and extraction of the miniprot alignments to extract 
 ```
  locus("/home/gaurav/Desktop/full_table.tsv", "ids")
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
